@@ -162,6 +162,19 @@ st.set_page_config(page_title="Resume Parser",page_icon="💡")
 
 st.title("Resume to JSON")
 
+intro = """
+This application converts PDF resumes into structured JSON format. It extracts and formats the following fields:
+
+- CONTACT INFORMATION
+- WORK EXPERIENCE
+- EDUCATION
+- SKILLS
+- PROFESSIONAL SUMMARY
+
+Upload a PDF resume, and the app will parse it using natural language processing, providing a JSON output of the extracted information.
+"""
+st.markdown(intro)
+
 llm = ChatGroq(temperature=0.5, groq_api_key="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", model_name="llama3-70b-8192")
 
 

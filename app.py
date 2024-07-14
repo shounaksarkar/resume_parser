@@ -160,7 +160,7 @@ def parse_resume_output(output):
 
 st.set_page_config(page_title="Resume Parser",page_icon="💡")
 
-st.title("Resume to JSON")
+st.title("Resume to JSON 📝")
 
 intro = """
 This application converts PDF resumes into structured JSON format. It extracts and formats the following fields:

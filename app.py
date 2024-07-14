@@ -164,13 +164,7 @@ st.title("Resume to JSON")
 
 intro = """
 This application converts PDF resumes into structured JSON format. It extracts and formats the following fields:
-
-- CONTACT INFORMATION
-- WORK EXPERIENCE
-- EDUCATION
-- SKILLS
-- PROFESSIONAL SUMMARY
-
+ CONTACT INFORMATION - WORK EXPERIENCE - EDUCATION - SKILLS - PROFESSIONAL SUMMARY
 Upload a PDF resume, and the app will parse it using natural language processing, providing a JSON output of the extracted information.
 """
 st.markdown(intro)

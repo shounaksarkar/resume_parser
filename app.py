@@ -158,6 +158,8 @@ def parse_resume_output(output):
 
     return parsed_data
 
+st.set_page_config(page_title="Resume Parser",page_icon="📝")
+
 st.title("Resume to JSON")
 
 llm = ChatGroq(temperature=0.5, groq_api_key="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", model_name="llama3-70b-8192")

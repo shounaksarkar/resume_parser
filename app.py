@@ -158,7 +158,7 @@ def parse_resume_output(output):
 
     return parsed_data
 
-st.set_page_config(page_title="Resume Parser",page_icon="📝")
+st.set_page_config(page_title="Resume Parser",page_icon="💡")
 
 st.title("Resume to JSON")
 
